@@ -7,11 +7,11 @@ def isOdd(value):
     bool - 如果是整数且为奇数返回 True，否则返回 False
     """
     # 判断类型是否为整数
+    if isinstance(value, bool):
+        return False
     if isinstance(value, int):
         if value % 2 != 0:
             return True
-        else:
-            return False
     else:
         return False
 
