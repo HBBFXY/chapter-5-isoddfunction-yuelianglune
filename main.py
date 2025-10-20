@@ -8,8 +8,10 @@ def isOdd(value):
     """
     # 判断类型是否为整数
     if isinstance(value, int):
-        if value % 2 != 0
-        return True
+        if value % 2 != 0:
+            return True
+        else:
+            return False
     else:
         return False
 
